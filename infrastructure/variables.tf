@@ -29,3 +29,11 @@ variable "lambda_handler" {
 variable "lambda_package_filename" {
   default = "hello-world-lambda.zip"
 }
+
+variable "api_name" {
+  default = "apigateway-lambda"
+}
+
+variable "api_stage_name" {
+  default = "apigateway-lambda-stage"
+}
